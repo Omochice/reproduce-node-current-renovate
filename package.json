@@ -96,17 +96,5 @@
     "typescript": "5.4.5",
     "unified": "9.2.2"
   },
-  "packageManager": "pnpm@9.5.0",
-  "pnpm": {
-    "ignoredOptionalDependencies": [
-      "dtrace-provider",
-      "moment",
-      "mv",
-      "safe-json-stringify"
-    ],
-    "overrides": {
-      "@semantic-release/github>@octokit/plugin-paginate-rest": "11.3.0",
-      "@types/linkify-it": "<5.0.0"
-    }
-  }
+  "packageManager": "pnpm@9.5.0"
 }
