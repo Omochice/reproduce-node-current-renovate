@@ -10,6 +10,6 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "better-sqlite3": "^11.1.2"
+    "dtrace-provider": "^0.8.8"
   }
 }
