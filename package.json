@@ -11,7 +11,6 @@
     "expect": "29.7.0",
     "expect-more-jest": "5.5.0",
     "graphql": "16.9.0",
-    "husky": "9.0.11",
     "memfs": "4.9.3",
     "nock": "13.5.4",
     "npm-run-all2": "6.2.2",
