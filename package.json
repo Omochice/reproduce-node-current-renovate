@@ -8,8 +8,5 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "renovate": "^37.434.0"
-  }
+  "license": "ISC"
 }
