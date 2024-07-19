@@ -11,9 +11,6 @@ importers:
       eslint:
         specifier: 8.57.0
         version: 8.57.0
-      eslint-formatter-gha:
-        specifier: 1.5.0
-        version: 1.5.0
       eslint-import-resolver-typescript:
         specifier: 3.6.1
         version: 3.6.1(eslint-plugin-import@2.29.1)(eslint@8.57.0)
@@ -1306,17 +1303,6 @@ packages:
   escape-string-regexp@5.0.0:
     resolution: {integrity: sha512-/veY75JbMK4j1yjvuUxuVsiS/hr/4iHs9FTT6cgTexxdE0Ly/glccBAkloH/DofkjRbZU3bnoj38mOmhkZ0lHw==}
     engines: {node: '>=12'}
-
-  eslint-formatter-gha@1.5.0:
-    resolution: {integrity: sha512-mpZ8g/rfxn/igeAapQpbUrnvaP3zPpru3Y2I1yfDdRazzcNvYJmrAb9NLbNce0TQYbLBmg38X/drUOv0QhLyaw==}
-
-  eslint-formatter-json@8.40.0:
-    resolution: {integrity: sha512-0bXo4At1EoEU23gFfN7wcDeqRXDHLJnvDOuQKD3Q6FkBlk7L2oVNPYg/sciIWdYrUnCBcKuMit3IWXkdSfzChg==}
-    engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
-
-  eslint-formatter-stylish@8.40.0:
-    resolution: {integrity: sha512-blbD5ZSQnjNEUaG38VCO4WG9nfDQWE8/IOmt8DFRHXUIfZikaIXmsQTdWNFk0/e0j7RgIVRza86MpsJ+aHgFLg==}
-    engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
 
   eslint-import-resolver-node@0.3.9:
     resolution: {integrity: sha512-WFj2isz22JahUv+B788TlO3N6zL3nNJGU8CcZbPZvVEkBPaJdCV4vy5wyghty5ROFbCRnm132v8BScu5/1BQ8g==}
@@ -4867,19 +4853,6 @@ snapshots:
   escape-string-regexp@4.0.0: {}
 
   escape-string-regexp@5.0.0: {}
-
-  eslint-formatter-gha@1.5.0:
-    dependencies:
-      eslint-formatter-json: 8.40.0
-      eslint-formatter-stylish: 8.40.0
-
-  eslint-formatter-json@8.40.0: {}
-
-  eslint-formatter-stylish@8.40.0:
-    dependencies:
-      chalk: 4.1.2
-      strip-ansi: 6.0.1
-      text-table: 0.2.0
 
   eslint-import-resolver-node@0.3.9:
     dependencies:
